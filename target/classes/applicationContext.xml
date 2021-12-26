@@ -22,6 +22,11 @@
     class= "com.infy.springDemo.TrackCoach">
     <constructor-arg ref="HappyFortuneServices"/>
     </bean>
+    
+    <bean id= "cricketCoach"
+    class= "com.infy.springDemo.cricketCoach">
+    <property name="fortuneService" ref="HappyFortuneServices"></property>
+    </bean>
 </beans>
 
 
