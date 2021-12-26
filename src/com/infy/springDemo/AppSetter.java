@@ -9,7 +9,7 @@ public class AppSetter {
 	Coach coach= context.getBean("cricketCoach",cricketCoach.class);
 	System.out.println(coach.getDailyFortune());
 	System.out.println(coach.getDailyWorkout());
-	
+	context.close();
 	}
 
 }

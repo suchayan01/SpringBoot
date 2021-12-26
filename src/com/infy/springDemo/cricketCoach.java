@@ -3,10 +3,10 @@ package com.infy.springDemo;
 public class cricketCoach implements  Coach {
 	private FortuneService fortuneService;
 	
-	public cricketCoach() {
-		// TODO Auto-generated constructor stub
-		System.out.println("Inside CricketCoach no-arg const");
-	}
+//	public cricketCoach() {
+//		// TODO Auto-generated constructor stub
+//		System.out.println("Inside CricketCoach no-arg const");
+//	}
 	public void setFortuneService(FortuneService fortuneService) {
 		this.fortuneService= fortuneService;
 	}
